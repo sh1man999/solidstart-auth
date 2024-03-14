@@ -4,8 +4,8 @@ import { logInAction } from '~/server/client';
 export default function () {
   const submission = useSubmission(logInAction);
   return (
-    <form action={logInAction} method="post" class="flex flex-col gap-4">
-      <button class={'btn btn-primary'} type="submit">Login</button>
+    <form action={logInAction} method="post" class="flex justify-center pt-4">
+      <button class='btn btn-primary  w-48' type="submit">Login</button>
     </form>
   );
 }
